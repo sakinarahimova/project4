@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/project4/static/css/main.6046d47c.css",
-    "main.js": "/project4/static/js/main.2f1edf01.js",
+    "main.css": "/project4/static/css/main.b9719ba7.css",
+    "main.js": "/project4/static/js/main.cb473e2f.js",
+    "static/media/Screenshot 2024-12-19 001649.png": "/project4/static/media/Screenshot 2024-12-19 001649.d3039b0f060682a83794.png",
+    "static/media/movie-cinema-premiere-background_41737-251.jpeg": "/project4/static/media/movie-cinema-premiere-background_41737-251.9c3ae47bc6894a8c76f5.jpeg",
     "static/media/no-pictures.png": "/project4/static/media/no-pictures.0700f0a58e9c5dec674f.png",
     "static/media/cross.png": "/project4/static/media/cross.8c319f57725407498630.png",
+    "static/media/film-viewer-svgrepo-com.svg": "/project4/static/media/film-viewer-svgrepo-com.fe72cb01a95a405d7cb0ca03f34e216f.svg",
     "index.html": "/project4/index.html",
-    "main.6046d47c.css.map": "/project4/static/css/main.6046d47c.css.map",
-    "main.2f1edf01.js.map": "/project4/static/js/main.2f1edf01.js.map"
+    "main.b9719ba7.css.map": "/project4/static/css/main.b9719ba7.css.map",
+    "main.cb473e2f.js.map": "/project4/static/js/main.cb473e2f.js.map"
   },
   "entrypoints": [
-    "static/css/main.6046d47c.css",
-    "static/js/main.2f1edf01.js"
+    "static/css/main.b9719ba7.css",
+    "static/js/main.cb473e2f.js"
   ]
 }
