@@ -14,7 +14,7 @@ function App() {
     <div className="App">
       <div className='container'>
         <Routes>
-          <Route path="/" element={<Film isDisable={isDisable} setIsDisable={setIsDisable} lists={lists} setLists={setLists } listName={listName} setListName={setListName} isListSaved={isListSaved} setIsListSaved={setIsListSaved}/>} />
+          <Route path="/project4" element={<Film isDisable={isDisable} setIsDisable={setIsDisable} lists={lists} setLists={setLists } listName={listName} setListName={setListName} isListSaved={isListSaved} setIsListSaved={setIsListSaved}/>} />
           <Route path="/saved-list" element={<SavedList lists={lists} isListSaved={isListSaved} listName={listName}/>} />
           <Route path="/main-movie" element={<MainMovie />} />
         </Routes>
