@@ -1,0 +1,105 @@
+.listContainer{
+    border: 1px solid rgb(129, 40, 7);
+    border-radius: 10px;
+    width: 35%;
+    background-color: bisque;
+    padding: 10px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100px; 
+    margin-right: 50px;
+}
+.listName{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    height: 60px;
+
+}
+.listNameInput{
+    padding: 5px;
+    font-size: 20px;
+    border: 1px solid rgb(129, 40, 7);
+    border-radius: 10px;
+    background-color: beige;
+    height: 50px;
+    width: 70%;
+}
+.listAdd{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    height: 60px;
+}
+.listAddButton{
+    margin: 0;
+    background-color: rgb(88, 51, 7);
+    color: white;
+    font-size: 20px;
+    height: 35px;
+    border: 1px solid rgb(129, 40, 7);
+    border-radius: 10px;
+}
+.list{
+    height: auto;
+    padding: 10px;
+    background-color: burlywood;
+    border: 1px solid rgb(129, 40, 7);
+    border-radius: 10px;
+    margin: 10px;
+}
+.line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading{
+    font-size: 18px;
+}
+.xButton{
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+}
+.xSign{
+    width: 20px;
+}
+.footer{
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+}
+.link{
+    width: 60%;
+    background-color: burlywood;
+    border: 1px solid rgb(129, 40, 7);
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+}
+.resetButton{    
+    width: 30%;
+    background-color: rgb(33, 20, 2);
+    border: 1px solid rgb(129, 40, 7);
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 14px;
+}
+.navLink{
+    width: 100%;
+    background-color: burlywood;
+    border: none;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+}

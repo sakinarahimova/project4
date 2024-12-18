@@ -1,0 +1,114 @@
+.filmContainer{
+    border: 1px solid rgb(129, 40, 7);
+    border-radius: 10px;
+    width: 60%;
+    background-color: bisque;
+    padding: 10px;
+    margin: 40px;
+}
+.filmWrapper{
+    box-sizing: border-box;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    background-color: beige;
+}
+.searchBarContainer{
+    box-sizing: border-box;
+    height: 60px;
+}
+.searchBar{
+    width: 80%;
+    box-sizing: border-box;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.input{
+    padding: 5px 20px;
+    font-size: 20px;
+    border: 1px solid rgb(129, 40, 7);
+    border-radius: 10px;
+    background-color: beige;
+    height: 50px;
+    width: 70%;
+}
+.button{
+    height: 35px;
+    border: 1px solid rgb(129, 40, 7);
+    border-radius: 10px;
+    /* background-color: blanchedalmond; */
+    background-color: rgb(88, 51, 7);
+    color: white;
+    font-size: 20px;
+    
+}
+.filmCardContainer{
+    box-sizing: border-box;
+
+}
+.filmCard{    
+    box-sizing: border-box;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+}
+@media screen and (max-width: 900px) {
+    .cardContent{
+        flex-direction: column;
+    }
+}
+.card{
+    padding: 20px;
+    width: 85%;
+    border: 1px solid rgb(129, 40, 7);
+    border-radius: 10px;
+    background-color: rgb(240, 199, 169);
+}
+.cardContent{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cardFilmImg{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    width: 220px;
+    padding: 10px;
+    height: auto;
+    border: 1px solid rgb(129, 40, 7);
+    border-radius: 10px;
+}
+.cardImg{
+    border-radius: 10px;
+    width: 200px;
+    height: auto;
+}
+.cardAddButton{
+    margin: 0;
+    background-color: rgb(88, 51, 7);
+    color: white;
+    font-size: 20px;
+    height: 35px;
+    border: 1px solid rgb(129, 40, 7);
+    border-radius: 10px;
+
+}
+.cardFilmData{
+    width: 60%;
+}
+.cardFilmDataName{
+    margin: 20px 0 10px  0;
+    color: rgb(129, 40, 7);
+    font-size: 18px;
+}
