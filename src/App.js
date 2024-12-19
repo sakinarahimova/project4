@@ -15,6 +15,7 @@ function App() {
       <div className='container'>
         <Header />
         <Routes>
+          <Route path='/' element={<Header/>} />
           <Route path="/film" element={<Film isDisable={isDisable} setIsDisable={setIsDisable} lists={lists} setLists={setLists } listName={listName} setListName={setListName} isListSaved={isListSaved} setIsListSaved={setIsListSaved}/>} />
           <Route path="/saved-list" element={<SavedList lists={lists} isListSaved={isListSaved} listName={listName}/>} />
           <Route path="/main-movie" element={<MainMovie />} />

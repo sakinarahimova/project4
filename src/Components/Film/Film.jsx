@@ -35,7 +35,7 @@ const Film = ({ lists, setLists, isDisable, setIsDisable ,listName , setListName
   };
 
   useEffect(() => {
-    fetch(`http://www.omdbapi.com/?s=fringe&apikey=ba38c6d5`)
+    fetch(`https://www.omdbapi.com/?s=fringe&apikey=ba38c6d5`)
       .then((res) => res.json())
       .then((data) => {
         if (data.Search) {
@@ -46,7 +46,7 @@ const Film = ({ lists, setLists, isDisable, setIsDisable ,listName , setListName
 
   useEffect(() => {
     if (search.trim() !== '') {
-      fetch(`http://www.omdbapi.com/?s=${search}&apikey=ba38c6d5`)
+      fetch(`https://www.omdbapi.com/?s=${search}&apikey=ba38c6d5`)
         .then((res) => res.json())
         .then((data) => {
           if (data.Search) {
