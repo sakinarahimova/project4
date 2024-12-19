@@ -13,7 +13,6 @@ function App() {
   return (
     <div className="App">
       <div className='container'>
-        {/* <Header /> */}
         <Routes>
           <Route path='/' element={<Header/>} />
           <Route path="/film" element={<Film isDisable={isDisable} setIsDisable={setIsDisable} lists={lists} setLists={setLists } listName={listName} setListName={setListName} isListSaved={isListSaved} setIsListSaved={setIsListSaved}/>} />
