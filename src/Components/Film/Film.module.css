@@ -70,6 +70,9 @@
     .cardContent{
         flex-direction: column;
     }
+    .filmContainer{
+        width: 80%;
+    }
 }
 .card{
     padding: 20px;
