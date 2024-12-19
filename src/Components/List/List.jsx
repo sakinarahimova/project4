@@ -2,7 +2,6 @@ import React from 'react'
 import ListStyle from './List.module.css'
 import xSign from './cross.png'
 import { useState } from 'react'
-import MainMovie from '../MainMovie/MainMovie'
 import { NavLink } from 'react-router-dom'; 
 const List = ({movieName , removeList , setListName , listName , isListSaved, setIsListSaved}) => {
   const [name , setName] = useState('')
