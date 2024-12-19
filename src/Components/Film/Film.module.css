@@ -64,7 +64,7 @@
 }
 @media screen and (max-width: 900px) {
     .filmWrapper{
-        
+        width: 100%;
     flex-direction: column;
     }
     .cardContent{
