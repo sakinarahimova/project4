@@ -65,6 +65,7 @@ const Film = ({ lists, setLists, isDisable, setIsDisable ,listName , setListName
   }, [search]);
 
   return (
+    
     <div className={FilmStyle.filmWrapper}>
       <div className={FilmStyle.filmContainer}>
         <div className={FilmStyle.searchBarContainer}>
