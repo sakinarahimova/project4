@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import FilmStyle from './Film.module.css';
 import List from '../List/List';
 import noPhoto from './images/no-pictures.png'
-const Film = ({ lists, setLists, isDisable, setIsDisable ,listName , setListName , isListSaved, setIsListSaved 
+const Film = ({ lists, setLists, isDisable, setIsDisable ,listName , setListName , isListSaved, setIsListSaved , check , setCheck
 }) => {
   const [inp, setInp] = useState('');
   const [search, setSearch] = useState('');
@@ -65,7 +65,6 @@ const Film = ({ lists, setLists, isDisable, setIsDisable ,listName , setListName
   }, [search]);
 
   return (
-    
     <div className={FilmStyle.filmWrapper}>
       <div className={FilmStyle.filmContainer}>
         <div className={FilmStyle.searchBarContainer}>
@@ -122,7 +121,7 @@ const Film = ({ lists, setLists, isDisable, setIsDisable ,listName , setListName
           )}
         </div>
       </div>
-      <List movieName={lists} removeList={removeList} listName={listName} setListName={setListName} isListSaved={isListSaved} setIsListSaved={setIsListSaved}/>
+      <List movieName={lists} setLists={setLists} removeList={removeList} listName={listName} setListName={setListName} isListSaved={isListSaved} setIsListSaved={setIsListSaved} check={check} setCheck={setCheck} setIsDisable={setIsDisable}/>
     </div>
   );
 };

@@ -2,12 +2,14 @@ import React from 'react'
 import savedListStyle from './SavedList.module.css'
 import { useLocation , useNavigate} from 'react-router-dom'
 // import List from '../List/List';
-const SavedList = ({lists , listName}) => {
+const SavedList = ({lists , listName , setCheck}) => {
     // const location = useLocation()
     const navigate = useNavigate();
     // const { listName, movies } = location.state || {}
     const goBack = () =>{
         navigate(-1)
+        setCheck(true)
+        
     }
   return (
     <div className={savedListStyle.wrapper}>

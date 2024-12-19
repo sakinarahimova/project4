@@ -2,8 +2,8 @@ import React from 'react'
 import ListStyle from './List.module.css'
 import xSign from './cross.png'
 import { useState } from 'react'
-import { NavLink } from 'react-router-dom'; 
-const List = ({movieName , removeList , setListName , listName , isListSaved, setIsListSaved}) => {
+import { NavLink , useLocation} from 'react-router-dom'; 
+const List = ({movieName , removeList , setLists , setListName , listName , isListSaved, setIsListSaved , check , setCheck , setIsDisable}) => {
   const [name , setName] = useState('')
   const takeListName = (e) =>{
     setName(e.target.value)
@@ -17,11 +17,17 @@ const List = ({movieName , removeList , setListName , listName , isListSaved, se
   const resetListName = () => {
     setListName('')
     setIsListSaved(false)
+    if (check === true) {
+      setLists([])
+      setIsDisable({});
+      setCheck(false)
+    }
   }
+  
   return (
     <div className={ListStyle.listContainer}>
       <div className={ListStyle.listName}>
-        <input onChange={takeListName} className={ListStyle.listNameInput} value={name ? name:listName} type="text" name="" id="" placeholder='NEW LIST' disabled={isListSaved}/>
+        <input onChange={takeListName} className={ListStyle.listNameInput} value={name? name : listName} type="text" name="" id="" placeholder='NEW LIST' disabled={isListSaved}/>
       </div>
       {movieName.map((movie,i) => (
               <div key={i} className={ListStyle.list}>
