@@ -21,10 +21,12 @@
     height: 60px;
 }
 .searchBar{
+    padding-left: 10px;
     width: 80%;
     box-sizing: border-box;
     margin: 10px;
     display: flex;
+    gap: 20px;
     justify-content: space-between;
     align-items: center;
 }
@@ -58,8 +60,13 @@
     flex-direction: column;
     gap: 20px;
     justify-content: space-between;
+    align-items: center;
 }
 @media screen and (max-width: 900px) {
+    .filmWrapper{
+        
+    flex-direction: column;
+    }
     .cardContent{
         flex-direction: column;
     }
@@ -99,7 +106,9 @@
     background-color: rgb(88, 51, 7);
     color: white;
     font-size: 20px;
-    height: 35px;
+    height: auto;
+    width: 200px;
+    padding: 10px;
     border: 1px solid rgb(129, 40, 7);
     border-radius: 10px;
 
